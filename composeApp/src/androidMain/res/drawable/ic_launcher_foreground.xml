@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Vrzeny 3D stin pod izometrickou zakladnou v bezpecne zone 66x66 -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.36"
+        android:pathData="M54,84 C36,84 25,79 25,73 C25,67 36,63 54,63 C72,63 83,67 83,73 C83,79 72,84 54,84 Z" />
+
+    <!-- Spodni 3D izometricky blok: leva stena -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M26,53 L54,67 L54,79 L26,65 Z" />
+
+    <!-- Spodni 3D izometricky blok: prava stinovana stena -->
+    <path
+        android:fillColor="#0369A1"
+        android:pathData="M82,53 L54,67 L54,79 L82,65 Z" />
+
+    <!-- Spodni 3D izometricky blok: horni nasvicena plocha -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,39 L82,53 L54,67 L26,53 Z" />
+
+    <!-- Horni odlesk na modre zakladne -->
+    <path
+        android:fillColor="#E0F2FE"
+        android:fillAlpha="0.38"
+        android:pathData="M54,41 L77,53 L54,64 L31,53 Z" />
+
+    <!-- Stin horniho stavebniho modulu na zakladne -->
+    <path
+        android:fillColor="#082F49"
+        android:fillAlpha="0.42"
+        android:pathData="M54,61 L71,53 L54,45 L37,53 Z" />
+
+    <!-- Horni 3D smaragdovy modul: leva stena -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M38,39 L54,47 L54,58 L38,50 Z" />
+
+    <!-- Horni 3D smaragdovy modul: prava stinovana stena -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M70,39 L54,47 L54,58 L70,50 Z" />
+
+    <!-- Horni 3D smaragdovy modul: horni plocha -->
+    <path
+        android:fillColor="#6EE7B7"
+        android:pathData="M54,31 L70,39 L54,47 L38,39 Z" />
+
+    <!-- 3D spodni hrana sipky publikace -->
+    <path
+        android:fillColor="#065F46"
+        android:pathData="M54,25 L64,34 L59,37 L54,32 L49,37 L44,34 Z" />
+
+    <!-- 3D horni bila sipka / jiskra stavitele -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.96"
+        android:pathData="M54,23 L64,32 L59,35 L54,30 L49,35 L44,32 Z" />
+</vector>
