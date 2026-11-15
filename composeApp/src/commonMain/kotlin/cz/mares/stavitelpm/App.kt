@@ -1,6 +1,5 @@
 package cz.mares.stavitelpm
 
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.BorderStroke
@@ -250,7 +249,7 @@ fun App() {
                         modifier = Modifier.fillMaxSize()
                     )
 
-                    AnimatedVisibility(
+                    androidx.compose.animation.AnimatedVisibility(
                         visible = bannerMessage.isNotEmpty(),
                         enter = fadeIn(),
                         exit = fadeOut(),
@@ -554,6 +553,7 @@ private fun TokenVaultDialog(
                         Text(
                             text = "Zpřehlední tlačítka a roletky Stavitele pro palec",
                             fontSize = 12.sp,
+                            fontWeight = FontWeight.Medium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }
